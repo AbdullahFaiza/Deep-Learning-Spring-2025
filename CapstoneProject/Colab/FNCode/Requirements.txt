@@ -1,0 +1,11 @@
+# requirements.txt – Resea Assistant Dependencies
+# Install using: pip install -r requirements.txt
+
+transformers           # NLP models and summarization (e.g. BART)
+newspaper3k            # Article scraping and parsing from URLs
+wikipedia              # Fetch Wikipedia summaries and references
+gradio                 # Web UI framework for building the interface
+python-docx            # Generate Microsoft Word reports
+reportlab              # Generate PDF summary reports
+google-search-results  # SerpAPI wrapper for web search results
+lxml[html_clean]       # HTML parsing and cleaning (required by newspaper3k)

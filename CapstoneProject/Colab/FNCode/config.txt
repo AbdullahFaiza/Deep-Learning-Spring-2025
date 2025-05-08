@@ -1,0 +1,11 @@
+
+# Configuration for the Resea Assistant
+
+# API keys
+SERPAPI_API_KEY="your_serp_api_key_here"
+
+# Output directory for reports
+OUTPUT_DIR="./generated_reports/"
+
+# Gradio settings
+GRADIO_SHARE_LINK=True
